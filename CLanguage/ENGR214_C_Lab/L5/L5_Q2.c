@@ -13,13 +13,14 @@ int main(){
     // Initialize variables
         // cycles through the user-entered list and saves it to the array
     printf("Enter %d integers: ", NUM_ELEMENTS);
-    scanf("%d", &currValue);
+    
     while((currValue >= 0) && (i < NUM_ELEMENTS)){
+        scanf("%d", &currValue);
         userValues[i] = currValue;
         i++;
-        scanf("%d", &currValue);
+        
     }
-    
+
     //if too many numbers are entered the program will stop
     if(i>NUM_ELEMENTS){
         printf("Too many numbers");
