@@ -3,12 +3,10 @@
 //   Author:        Ryan L.
 //   Description:   C program to Capitalize the First and Last Letters of Each Word of a String.
 *//////////////////////////////////////////////
-
 #include <stdio.h>
 #include <conio.h>
 #include <ctype.h>
 #include <string.h>
-
 
 int main(){
     // Declare variables (test case: )
@@ -28,8 +26,5 @@ int main(){
         }
     }
     printf("%s", str);
-
-
-
     return 0;
 }
