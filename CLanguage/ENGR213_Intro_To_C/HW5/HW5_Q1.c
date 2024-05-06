@@ -14,11 +14,18 @@ int main(){
 
 
     // Initialize variables
-    printf("pointer: Demonstrate the use of & and * operator :");
+    printf("pointer: Demonstrate the use of & and * operator :\n");
     printf("------------------------------------------------------\n");
-    scanf("m = %d", &a);
-    scanf("\nfx = %f", &b);
-    scanf("\nch = %c", &c);
+    // Ask user for the value of a, b, and c
+    printf("m = ");
+    scanf("%d", &a);
+
+    printf("fx = ");
+    scanf("%lf", &b);
+
+    printf("cht = ");
+    scanf(" %c", &c);
+    
 
     //Work
     // Print the address of a, b, and c using & operator

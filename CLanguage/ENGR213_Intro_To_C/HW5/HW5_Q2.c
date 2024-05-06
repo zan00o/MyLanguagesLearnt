@@ -26,8 +26,8 @@ int main(){
     // Print the elements using pointer
     printf("The elements you entered are : \n");
     for(i=0; i<n; i++){
-        printf("element - %d: %d ",n, *(arr+i));
-        i++;
+        printf("element - %d: %d \n",i, *(arr+i));
+        
     }
 
     return 0;
